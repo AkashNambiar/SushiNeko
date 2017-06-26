@@ -17,6 +17,11 @@
 		38BD82D61F0096BB00A0EF6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BD82D41F0096BB00A0EF6A /* LaunchScreen.storyboard */; };
 		38BD82E11F0096BB00A0EF6A /* ushiNekoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD82E01F0096BB00A0EF6A /* ushiNekoTests.swift */; };
 		38BD82EC1F0096BC00A0EF6A /* ushiNekoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD82EB1F0096BC00A0EF6A /* ushiNekoUITests.swift */; };
+		38BD82FA1F00973300A0EF6A /* sfx_swipe.caf in Resources */ = {isa = PBXBuildFile; fileRef = 38BD82F91F00973300A0EF6A /* sfx_swipe.caf */; };
+		38BD82FC1F00976400A0EF6A /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD82FB1F00976400A0EF6A /* MSButtonNode.swift */; };
+		38BD82FE1F0098E400A0EF6A /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BD82FD1F0098E400A0EF6A /* SushiPiece.swift */; };
+		38CAF19D1F016A4800E24975 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CAF19C1F016A4800E24975 /* Character.swift */; };
+		38CAF19F1F01716E00E24975 /* AnimationActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38CAF19E1F01716E00E24975 /* AnimationActions.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		38BD82E71F0096BC00A0EF6A /* ushiNekoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ushiNekoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BD82EB1F0096BC00A0EF6A /* ushiNekoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ushiNekoUITests.swift; sourceTree = "<group>"; };
 		38BD82ED1F0096BC00A0EF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BD82F91F00973300A0EF6A /* sfx_swipe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_swipe.caf; sourceTree = "<group>"; };
+		38BD82FB1F00976400A0EF6A /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		38BD82FD1F0098E400A0EF6A /* SushiPiece.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		38CAF19C1F016A4800E24975 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		38CAF19E1F01716E00E24975 /* AnimationActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = AnimationActions.sks; path = ../AnimationActions.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +113,18 @@
 		38BD82C41F0096BB00A0EF6A /* ushiNeko */ = {
 			isa = PBXGroup;
 			children = (
-				38BD82C51F0096BB00A0EF6A /* AppDelegate.swift */,
 				38BD82C71F0096BB00A0EF6A /* GameScene.sks */,
 				38BD82C91F0096BB00A0EF6A /* Actions.sks */,
+				38CAF19E1F01716E00E24975 /* AnimationActions.sks */,
+				38BD82C51F0096BB00A0EF6A /* AppDelegate.swift */,
+				38CAF19C1F016A4800E24975 /* Character.swift */,
 				38BD82CB1F0096BB00A0EF6A /* GameScene.swift */,
+				38BD82FD1F0098E400A0EF6A /* SushiPiece.swift */,
 				38BD82CD1F0096BB00A0EF6A /* GameViewController.swift */,
+				38BD82FB1F00976400A0EF6A /* MSButtonNode.swift */,
 				38BD82CF1F0096BB00A0EF6A /* Main.storyboard */,
 				38BD82D21F0096BB00A0EF6A /* Assets.xcassets */,
+				38BD82F91F00973300A0EF6A /* sfx_swipe.caf */,
 				38BD82D41F0096BB00A0EF6A /* LaunchScreen.storyboard */,
 				38BD82D71F0096BB00A0EF6A /* Info.plist */,
 			);
@@ -202,6 +217,7 @@
 				TargetAttributes = {
 					38BD82C11F0096BB00A0EF6A = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = GCVD58YW3D;
 						ProvisioningStyle = Automatic;
 					};
 					38BD82DB1F0096BB00A0EF6A = {
@@ -242,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38BD82D11F0096BB00A0EF6A /* Main.storyboard in Resources */,
+				38BD82FA1F00973300A0EF6A /* sfx_swipe.caf in Resources */,
+				38CAF19F1F01716E00E24975 /* AnimationActions.sks in Resources */,
 				38BD82C81F0096BB00A0EF6A /* GameScene.sks in Resources */,
 				38BD82D31F0096BB00A0EF6A /* Assets.xcassets in Resources */,
 				38BD82D61F0096BB00A0EF6A /* LaunchScreen.storyboard in Resources */,
@@ -273,6 +291,9 @@
 				38BD82CC1F0096BB00A0EF6A /* GameScene.swift in Sources */,
 				38BD82CE1F0096BB00A0EF6A /* GameViewController.swift in Sources */,
 				38BD82C61F0096BB00A0EF6A /* AppDelegate.swift in Sources */,
+				38CAF19D1F016A4800E24975 /* Character.swift in Sources */,
+				38BD82FE1F0098E400A0EF6A /* SushiPiece.swift in Sources */,
+				38BD82FC1F00976400A0EF6A /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GCVD58YW3D;
 				INFOPLIST_FILE = ushiNeko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AkashNambiar.ushiNeko;
@@ -438,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GCVD58YW3D;
 				INFOPLIST_FILE = ushiNeko/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AkashNambiar.ushiNeko;
@@ -519,6 +542,7 @@
 				38BD82F21F0096BC00A0EF6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38BD82F31F0096BC00A0EF6A /* Build configuration list for PBXNativeTarget "ushiNekoTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +551,7 @@
 				38BD82F51F0096BC00A0EF6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38BD82F61F0096BC00A0EF6A /* Build configuration list for PBXNativeTarget "ushiNekoUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +560,7 @@
 				38BD82F81F0096BC00A0EF6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
